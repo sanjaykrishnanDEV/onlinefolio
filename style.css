@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+h6{
+    margin-bottom: 0;
+}
+#banner{
+    font-size: 12em;
+    color: grey;
+    margin-left: 12%;
+}
+
+#grids{
+    height: auto;
+    display: grid;grid-template-rows: repeat(2, 4fr);
+    grid-template-columns: repeat(3,2fr);justify-content: center;
+    row-gap: 2em;column-gap: 3em;
+}
+
+#grids .cell_a{
+     height: 20em;width: 20em;
+}
+#grids  img{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+#footer p{
+    margin-bottom: 0;
+}
